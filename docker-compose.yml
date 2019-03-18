@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /srv/docs
+    volumes:
+      - .:/srv
