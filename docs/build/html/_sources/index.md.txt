@@ -3,8 +3,8 @@ Welcome to Libero docs-example's documentation!
 rather than use sphinx and `.rst` files. I thought I would try using markdown 
 and keep things simple.
 
-**Index:**
- - Index item 1
+ - [Index item 1](section_a/document_1.md)
+   - Child item 1
  - Index item 2
  - Index item 3
  - Index item 4
