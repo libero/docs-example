@@ -37,7 +37,7 @@ Documents can be created using either reStructuredText `.rst` or Markdown `.md` 
 The recommended workflow is:
  - Checkout the `master` branch
  - Create a new branch *(branching from `master`)*
- - Create or edit documents in `/docs/source/`
+ - Create or edit documents in `docs/source/`
  - Run `make html` to prepare the files for being hosted
  - Commit the changes in `git` to your branch and create a Pull Request on [Git Hub](https://github.com/libero/docs-example)
 
@@ -45,5 +45,5 @@ When the changes have been merged they will appear on the hosted site, available
 to the public.
 
 ## Commands
- - `make` or `make build` builds a python container configured to generate html documents from the documents in `docs/source/`
- - `make html` generated html from documents found in `docs/source/`
+ - `make` or `make build` builds a preconfigured python container
+ - `make html` generates html from documents found in `docs/source/`
