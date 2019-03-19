@@ -8,13 +8,10 @@ This is an example of how docs for Libero can be created and hosted using Spinx 
  - [Commands](#commands)
 
 ## Dependencies
-
-* [Docker](https://www.docker.com/)
+ - [Docker](https://www.docker.com/)
 
 ## Getting started
-To start creating docs do the following:
-
-Clone this repository to your computer
+Clone this repository to your computer:
 ```bash
 git clone https://github.com/libero/docs-example.git
 ```
